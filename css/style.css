@@ -39,9 +39,17 @@ https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR
 body {
     height: 100vh;
     height: 100svh;
-    mind-width: 375px;
+    min-width: 375px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
+.attribution {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 /* ------ DEBUG ------ */
 
@@ -53,6 +61,11 @@ body {
     background-color: red;
 }
 
+.card-button {
+    background-color: blue;
+}
+
 .attribution {
     background-color: green;
+    border: 2px solid black;
 }
