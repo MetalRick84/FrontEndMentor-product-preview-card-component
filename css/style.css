@@ -7,7 +7,7 @@ https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR
 
 
 
-/* --- 01 - FONTS ---*/
+/* --- FONTS ---*/
 
 /* Montserrat, 500, 700 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
@@ -16,7 +16,7 @@ https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
 
 
-/* --- 02 - COLORS ---*/
+/* --- VARIABLES ---*/
 
 :root {
     --color-button: #3c8067;
@@ -26,7 +26,33 @@ https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR
 }
 
 
+/* --- RESET --- */
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* --- LAYOUT --- */
+
+body {
+    height: 100vh;
+    height: 100svh;
+    mind-width: 375px;
+}
 
 
 /* ------ DEBUG ------ */
+
+body {
+    background-color: lightgray;
+}
+
+.card {
+    background-color: red;
+}
+
+.attribution {
+    background-color: green;
+}
