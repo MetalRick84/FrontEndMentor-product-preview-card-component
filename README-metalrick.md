@@ -1,0 +1,44 @@
+# Frontend Mentor - Product preview card component solution
+
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### Screenshot
+
+![Screenshot - Solution]()
+
+### Links
+
+- Solution URL: [...](#)
+
+## My process
+
+### Built with
+
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Visual Studio Code
+- git / github.com
+
+### What I learned
+
+
+### Useful resources
+
+## Author
+
+- Website - *coming soon*
+- Frontend Mentor - [@MetalRick84](https://www.frontendmentor.io/profile/MetalRick84)
