@@ -22,7 +22,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [...](#)
-- [Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+- [ColorPicker](https://www.w3schools.com/colors/colors_picker.asp) from W3Cschools
 
 ## My process
 
@@ -38,6 +38,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 
 ### Useful resources
+
+- [ColorPicker](https://www.w3schools.com/colors/colors_picker.asp) from W3Cschools
 
 ## Author
 
