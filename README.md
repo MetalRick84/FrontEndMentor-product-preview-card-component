@@ -17,18 +17,17 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![Screenshot - Solution]()
+![Screenshot - Solution](/images/desktop-preview-metalrick.png)
 
 ### Links
 
-- Solution URL: [...](#)
-- [ColorPicker](https://www.w3schools.com/colors/colors_picker.asp) from W3Cschools
+- Solution URL: [https://metalrick84.github.io/FrontEndMentor-product-preview-card-component/](https://metalrick84.github.io/FrontEndMentor-product-preview-card-component/)
 
 ## My process
 
 ### Built with
 
-- Flexbox
+- CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
 - Visual Studio Code
@@ -39,10 +38,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - The difference between **git fetch** and **git pull**
 - The Strange <img> Gap In HTML - [stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image)
 - How to create custom VSCode Snippets - [youtube](https://www.youtube.com/watch?v=TGh2NpCIDlc&t=135s)
-
-### Useful resources
-
-- [ColorPicker](https://www.w3schools.com/colors/colors_picker.asp) from W3Cschools
 
 ## Author
 
