@@ -38,6 +38,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - The difference between **git fetch** and **git pull**
 - The Strange <img> Gap In HTML - [stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image)
+- How to create custom VSCode Snippets - [youtube](https://www.youtube.com/watch?v=TGh2NpCIDlc&t=135s)
 
 ### Useful resources
 
