@@ -54,10 +54,15 @@ html {
 body {
     height: 100vh;
     height: 100svh;
-    min-width: 375px;
+    min-width: 375px; /* unnötig wenn media-query auch definiert */
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
+}
+
+.card {
+    width: 340px;
+    /* aspect-ratio: 34 / 61; */
 }
 
 .card-image {
@@ -70,8 +75,30 @@ body {
     width: 100%;
 }
 
+/* --- DESIGN --- */
+
+body {
+    background-color: var(--color-site-background);
+}
+
+.card {
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.card-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 0 1em;
+    background-color: lightcoral;
+}
+
 /* ------ DEBUG ------ */
 
+/* 
 body {
     background-color: lightgray;
 }
@@ -87,3 +114,5 @@ body {
 .attribution {
     background-color: green;
 }
+*/
+
