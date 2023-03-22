@@ -59,17 +59,26 @@ body {
     }
 }
 
-.card-image {
+.card-image-mobile {
     display: block; /*for the the strange <img>-gap*/
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+.card-image-desktop {
+    display:none;
+}
+
 @media only screen and (min-width: 375px) {
-    .card-image {
-        content: url(/images/image-product-desktop.jpg);
-        border-top-right-radius: 0;
+    .card-image-mobile {
+        /* content: url(./images/image-product-desktop.jpg); */
+        display: none;
+    }
+
+    .card-image-desktop {
+        display: block;
+        border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
 }
