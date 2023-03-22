@@ -66,6 +66,7 @@ body {
 }
 
 .card-image {
+    display: block; /*for the the strange <img>-gap*/
     width: 100%;
 }
 

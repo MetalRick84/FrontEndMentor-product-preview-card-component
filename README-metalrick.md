@@ -36,6 +36,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### What I learned
 
+- The difference between **git fetch** and **git pull**
+- The Strange <img> Gap In HTML - [stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image)
 
 ### Useful resources
 
