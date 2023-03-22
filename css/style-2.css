@@ -51,11 +51,27 @@ body {
     background-color: white;
 }
 
+@media only screen and (min-width: 375px) {
+    .card {
+        width: 600px;
+        height: 450px;
+        flex-direction: row; 
+    }
+}
+
 .card-image {
     display: block; /*for the the strange <img>-gap*/
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+@media only screen and (min-width: 375px) {
+    .card-image {
+        content: url(/images/image-product-desktop.jpg);
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
 }
 
 .card-content {
@@ -119,7 +135,3 @@ body {
     bottom: 0;
     width: 100%;
 }
-
-
-
-
