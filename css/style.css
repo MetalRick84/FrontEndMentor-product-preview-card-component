@@ -34,6 +34,21 @@ https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR
 }
 
 
+/* --- TYPOGRAPHY --- */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.card-subheading {
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-family: 'Fraunces', serif;
+}
+
 /* --- LAYOUT --- */
 
 body {
@@ -43,6 +58,10 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+.card-image {
+    width: 100%;
 }
 
 .attribution {
@@ -67,5 +86,4 @@ body {
 
 .attribution {
     background-color: green;
-    border: 2px solid black;
 }
