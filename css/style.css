@@ -40,12 +40,23 @@ html {
     font-size: 14px;
 }
 
+.card {
+    color: var(--color-text);
+}
+
 .card-subheading {
     text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 0.9em;
+    font-weight: 500;
 }
 
 .card-title {
     font-family: 'Fraunces', serif;
+}
+
+.card-description {
+    line-height: 1.5em;
 }
 
 /* --- LAYOUT --- */
@@ -53,7 +64,6 @@ html {
 body {
     height: 100vh;
     height: 100svh;
-    min-width: 375px; /* unnötig wenn media-query auch definiert */
     display: grid;
     justify-items: center;
     align-items: center;
@@ -61,12 +71,40 @@ body {
 
 .card {
     width: 340px;
-    /* aspect-ratio: 34 / 61; */
+    aspect-ratio: 34 / 61;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-image {
     display: block; /*for the the strange <img>-gap*/
     width: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 25px;
+}
+
+.card-prices {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.card-prices li {
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.card-button {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
 .attribution {
@@ -83,7 +121,7 @@ body {
 
 .card {
     border-radius: 10px;
-    background-color: blue;
+    background-color: grey;
 }
 
 .card-image {
@@ -91,10 +129,30 @@ body {
     border-top-right-radius: 10px;
 }
 
-.card-content {
-    padding: 0 1em;
-    background-color: lightcoral;
+.card-title {
+    color: var(--color-title);
+    font-size: 2.1em;
 }
+
+.price-action {
+    font-family: 'Fraunces', serif;
+    font-size: 2.2em;
+    color: var(--color-button);
+}
+
+.price-normal {
+    height: 2.2em;
+}
+
+.card-button {
+    background-color: var(--color-button);
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
 
 /* ------ DEBUG ------ */
 
@@ -115,4 +173,9 @@ body {
     background-color: green;
 }
 */
+.card-content {
+    background-color: yellow;
+}
+
+
 
