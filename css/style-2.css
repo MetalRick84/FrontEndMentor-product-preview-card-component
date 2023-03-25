@@ -51,7 +51,7 @@ body {
     background-color: white;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 460px) {
     .card {
         width: 600px;
         height: 450px;
@@ -70,7 +70,7 @@ body {
     display:none;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 460px) {
     .card-image-mobile {
         /* content: url(./images/image-product-desktop.jpg); */
         display: none;
